@@ -3,7 +3,7 @@
 <head>
     <title>Gencore</title>
     <meta charset="UTF-8" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';frame-src youtube.com www.youtube.com">
     <meta content="Soluciones sostenibles de generación y consumo de recursos energéticos e hídricos." name="description" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
@@ -50,9 +50,11 @@
           id="video"
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/frC1D-XRgLQ"
+          src="https://www.youtube-nocookie.com/embed/frC1D-XRgLQ?si=acO_LLEQGrBNuVRS"
+          title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen="true"
         ></iframe>
       </section>
