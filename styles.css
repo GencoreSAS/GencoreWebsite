@@ -222,8 +222,7 @@
   }
   
   .campos label {
-    color: var(--theme-color-1);
-    padding-left: 1em;
+    color: var(--theme-color-3);
     margin: 0;
     font-weight: bold;
   }
@@ -237,7 +236,7 @@
   .entrada {
     background-color: #fff0;
     border: none;
-    color: var(--theme-color-1);
+    color: var(--theme-color-3);
     font-size: 2rem;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
@@ -252,7 +251,7 @@
   }
   
   ::placeholder {
-    color: var(--theme-color-1);
+    color: var(--theme-color-3);
     opacity: 0.75;
   }
   
